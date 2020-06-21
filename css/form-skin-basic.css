@@ -1,0 +1,52 @@
+#usp-skin-basic-wrapper {
+    background: white;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 32px;
+    max-width: 600px;
+    border: 1px solid darkslategray;
+}
+
+#usp-form-basic-body {
+    color: black;
+}
+
+#usp-skin-basic-wrapper h1 {
+    font-weight: 800;
+    font-size: 20pt;
+    color: black;
+}
+
+#usp-skin-basic-bluebar {
+    display: flex;
+    flex: 1 0 30%;
+    align-items: center;
+    justify-content: center;
+    background: dodgerblue;
+}
+
+#usp-skin-basic-bluebar img {
+    max-width: 88px;
+    max-height: 88px;
+    margin: 16px;
+}
+
+#usp-skin-basic-content {
+    box-sizing: border-box;
+    text-align: center;
+    min-width: 300px;
+    flex: 1 0 70%;
+    padding: 40px;
+}
+
+#usp-skin-basic-form > p > button[type="submit"] {
+    padding: 10px;
+    white-space: normal;
+    width: 100%;
+    margin-top: 8px;
+    font-size: 12pt;
+    background-color: #007cba;
+    border: 2px solid #007cba;;
+    color: #fff;
+}

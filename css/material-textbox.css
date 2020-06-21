@@ -1,0 +1,131 @@
+/*
+This stylesheet is licensed under the MIT license:
+View more information about the license here: https://opensource.org/licenses/MIT
+Original Stylesheet Source: https://codepen.io/chrisoncode/pen/IdGKH
+
+The CSS has been slightly modified to fit requirements.
+
+ */
+
+.usp-input-group {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.usp-input-group > input {
+    background-color: rgba(200, 200, 200, .2);
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #757575;
+}
+
+.usp-input-group > input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.usp-input-group > label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 5px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.usp-input-group > input:focus~label,
+.usp-input-group > input:not(:placeholder-shown)~label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+.usp-bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.usp-bar:before,
+.usp-bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.usp-bar:before {
+    left: 50%;
+}
+
+.usp-bar:after {
+    right: 50%;
+}
+
+.usp-input-group > input:focus~.usp-bar:before,
+.usp-input-group > input:focus~.usp-bar:after {
+    width: 50%;
+}
+
+.usp-highlight {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.usp-input-group > input:focus~.usp-highlight {
+    -webkit-animation: inputHighlighter 0.3s ease;
+    -moz-animation: inputHighlighter 0.3s ease;
+    animation: inputHighlighter 0.3s ease;
+}
+
+
+/* ANIMATIONS ================ */
+
+@-webkit-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@-moz-keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}
+
+@keyframes inputHighlighter {
+    from {
+        background: #5264AE;
+    }
+    to {
+        width: 0;
+        background: transparent;
+    }
+}

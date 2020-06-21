@@ -1,0 +1,20 @@
+/*
+
+The title of a form should have class .usp-form-title-text applied.
+The body of a form should have class .usp-form-body-text applied.
+
+This is necessary for create-form.js to update the forms in the admin section.
+
+ */
+
+.usp-form-title-text {
+    white-space: pre-line;
+}
+
+.usp-form-body-text {
+
+}
+
+.usp-form-submit {
+
+}

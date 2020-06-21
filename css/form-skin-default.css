@@ -1,0 +1,51 @@
+#usp-skin-default-wrapper {
+    display: block;
+    background: white; !important;
+    max-width: 600px;
+    text-align: center; !important;
+    box-sizing: border-box;
+    padding: 32px;
+    border: 1px solid #757575;
+    font-family: "Segoe UI", Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
+#usp-skin-default-wrapper > img {
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#usp-skin-default-wrapper h1 {
+    font-size: 24pt;
+    padding: 0;
+}
+
+#usp-skin-default-header {
+    color: black;
+}
+
+#usp-skin-default-body {
+    color: #797F8F;
+    max-width: 70%;
+    font-size: 12pt;
+    margin: 0 auto 10px;
+}
+
+#usp-skin-default-form input {
+    background-color: #FAFAFA;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #797F8F;
+    box-shadow: none;
+    margin: 0 auto;
+}
+
+#usp-skin-default-form > p > button[type="submit"] {
+    width: 70%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 12pt;
+    background-color: indianred;
+    color: white;
+    white-space: normal;
+}

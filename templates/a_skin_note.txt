@@ -1,0 +1,49 @@
+Are you a developer?
+
+Creating a template/skin (both are synonymous) can't be any easier.
+
+=====
+
+When creating a new skin, ensure the skin meets the following criteria:
+
+* The following comment is pasted at the top of the skin:
+/*
+Variables $title, $body, and $html_buttons come from skin-variables.php.
+These variables have been safely escaped from that file.
+*/
+
+* include(USP_BASE_DIR . 'templates/skin-variables.php'); is at the top of the php file.
+* Heading (h1,h2,etc..) has class 'usp-form-title-text' (this is used for realtime text listener).
+  - Inside should be esc_html($title)
+* Body has class 'usp-form-body-text' (this is used for realtime text listener).
+  - Inside should be esc_html($body)
+* These are non-existant CSS classes and it should stay that way. It's used as an identifier for jQuery.
+* the <form> has <?php if (isset($fake_form) && ($fake_form === true)) echo ' onsubmit="return false"'; ?> attached to the properties.
+* No hardcoded login buttons. Instead, a div with class="usp-form-submit".
+  - Inside the div, buttons will added thru "echo usp_sanitize_html_button_payload($html_buttons);"
+
+Then to configure ajax submissions:
+* Form action should be toward <?php echo admin_url('admin-ajax.php');?> (incase javascript/ajax is disabled)
+* Form should have the class "usp-form-js"
+* Inside, put <?php if ($fake_form === false) { wp_nonce_field( 'usp_submit_new_subscriber_nonce', 'usp_nonce' ); } ?>
+* A required input with name="usp_email" (subscriber email)
+* A required input with name="usp_name" (subscriber name)
+* Any text such as <p> or <h3> with style="display: none" and class="usp-submission-response"
+  - this tells the user the result of the subscription.
+
+====
+
+Also:
+
+You get access to the following variables:
+* $title - user-defined title of form
+* $body - user-defined body of form
+* usp_sanitize_html_button_payload($html_buttons) - html of submit buttons. No need to loop or anything. These buttons must be in the class "usp-form-submit" though.
+* $is_popup - bool whether or not it's a popup form.
+* $fake_form - bool whether this is being shown in the admin "Create Form" section
+* USP_BASE_DIR - root plugin directory
+* USP_BASE_URL - base url of the plugin directory.
+
+===
+
+Finally, to register the skin, go to /views/RegisteredSkins.php.

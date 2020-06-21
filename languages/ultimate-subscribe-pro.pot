@@ -1,0 +1,926 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Subscribe Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-21 00:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.1"
+
+#: UltimateSubscribePro.php:17
+msgid "View Details"
+msgstr ""
+
+#: models/USP_CodeListener.php:34 models/USP_CodeListener.php:46
+msgid "Success!"
+msgstr ""
+
+#: models/USP_CodeListener.php:35
+msgid "You are now a registered subscriber."
+msgstr ""
+
+#: models/USP_CodeListener.php:38 models/USP_CodeListener.php:50
+msgid "We're Sorry"
+msgstr ""
+
+#: models/USP_CodeListener.php:39
+msgid ""
+"For some reason, we were not able to add you to the subscription system. "
+"Please try again later."
+msgstr ""
+
+#: models/USP_CodeListener.php:47
+msgid "You are no longer a registered subscriber"
+msgstr ""
+
+#: models/USP_CodeListener.php:51
+msgid "It looks you aren't a registered subscriber at the moment!"
+msgstr ""
+
+#: models/USP_Shortcode.php:64 models/USP_Shortcode.php:70
+msgid "Invalid form id"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:21 models/USP_AjaxHandler.php:50
+msgid "You have been registered!"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:25
+msgid "Subscriber"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:32
+msgid "Please fill in an email!"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:44
+msgid ""
+"This subscription category is currently down. Please contact a site "
+"administrator."
+msgstr ""
+
+#: models/USP_AjaxHandler.php:57
+msgid "You have been registered! An activation email will be sent to you soon."
+msgstr ""
+
+#: models/USP_AjaxHandler.php:74
+msgid "You're already subscribed!"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:77
+msgid "Please enter a valid email!"
+msgstr ""
+
+#: models/USP_AjaxHandler.php:80
+msgid ""
+"An email to activate your subscription has already been sent. Be sure to "
+"check spam."
+msgstr ""
+
+#: models/USP_EmailSettings.php:109
+msgid "Invalid email entered"
+msgstr ""
+
+#: models/USP_EmailSettings.php:117
+msgid "SMTP Server can not be blank"
+msgstr ""
+
+#: models/USP_EmailSettings.php:121
+msgid "SMTP Port can not be blank"
+msgstr ""
+
+#: models/USP_EmailSettings.php:125
+msgid "SMTP Port must be a number"
+msgstr ""
+
+#: models/USP_EmailSettings.php:195
+msgid "USP Test Email"
+msgstr ""
+
+#: models/USP_EmailSettings.php:196
+msgid ""
+"This is a test email sent through your WordPress Plugin UltimateSubscribePro."
+" If you are reading this\n"
+"\t\t\tmessage, your website was successfully able to use the email settings "
+"you have set. Congratulations!"
+msgstr ""
+
+#: templates/skin-blue.php:25 templates/skin-smooth.php:38
+msgid "Your name"
+msgstr ""
+
+#: templates/skin-blue.php:30
+msgid "Your email address"
+msgstr ""
+
+#: templates/skin-smooth.php:31
+msgid "Please enter a valid email"
+msgstr ""
+
+#: templates/skin-smooth.php:33
+msgid "Your email"
+msgstr ""
+
+#: templates/skin-basic.php:38
+msgid "Email address"
+msgstr ""
+
+#: templates/skin-basic.php:45 templates/admin/view-subscribers.php:17
+#: templates/admin/view-subscribers.php:24
+msgid "Name"
+msgstr ""
+
+#: templates/html-unique-code.php:26
+msgid "You will be redirected shortly.."
+msgstr ""
+
+#: templates/html-unique-code.php:27
+msgid "(Or click here if it's been longer than 5 seconds)"
+msgstr ""
+
+#: templates/skin-default.php:28
+msgid "Enter your email"
+msgstr ""
+
+#: templates/skin-default.php:31
+msgid "Enter your name"
+msgstr ""
+
+#: templates/skin-lady.php:29
+msgid "name"
+msgstr ""
+
+#: templates/skin-lady.php:32
+msgid "e-mail"
+msgstr ""
+
+#: views/USP_Announcer.php:17
+msgid "Dismiss this notice"
+msgstr ""
+
+#: views/USP_FormCreator.php:29
+msgid "Invalid form."
+msgstr ""
+
+#: templates/admin/create-form.php:43
+msgid "Button Text"
+msgstr ""
+
+#: templates/admin/create-form.php:62
+msgid "Subscription Form Designer"
+msgstr ""
+
+#: templates/admin/create-form.php:65
+msgid ""
+"Welcome your new form designer! All subscription forms utilize responsive "
+"design.\n"
+"                        Check out real-time changes to your right side!"
+msgstr ""
+
+#: templates/admin/create-form.php:74
+msgid "Popup Configuration"
+msgstr ""
+
+#: templates/admin/create-form.php:76
+msgid ""
+"When a form is configured to popup, the form will appear when a visitor "
+"visits the page\n"
+"                            with this form's shortcode."
+msgstr ""
+
+#: templates/admin/create-form.php:81
+msgid "Is this a popup form?"
+msgstr ""
+
+#: templates/admin/create-form.php:86
+msgid "How many seconds between visits should this popup?"
+msgstr ""
+
+#: templates/admin/create-form.php:89
+msgid "Tip: You can set it to 0 for the form to always popup."
+msgstr ""
+
+#: templates/admin/create-form.php:96
+msgid "Form Details"
+msgstr ""
+
+#: templates/admin/create-form.php:99
+msgid "Form Title"
+msgstr ""
+
+#: templates/admin/create-form.php:105
+msgid "Form Body"
+msgstr ""
+
+#: templates/admin/create-form.php:112
+msgid "Subscription Buttons"
+msgstr ""
+
+#: templates/admin/create-form.php:116
+msgid ""
+"Each subscription button has a category & text.\n"
+"                            When a user clicks on that button, their contact "
+"information will be added to\n"
+"                            the category you just assigned to it. "
+msgstr ""
+
+#: templates/admin/create-form.php:122
+#, php-format
+msgid "Click <a href=\"%s\">here</a> to manage categories."
+msgstr ""
+
+#: templates/admin/create-form.php:133 templates/admin/create-category.php:2
+msgid "Create a category"
+msgstr ""
+
+#: templates/admin/create-form.php:144
+msgid "Category"
+msgstr ""
+
+#: templates/admin/create-form.php:151
+msgid "Add Button"
+msgstr ""
+
+#: templates/admin/create-form.php:152
+msgid "Delete Last Button"
+msgstr ""
+
+#: templates/admin/create-form.php:159
+msgid "Form Styling"
+msgstr ""
+
+#: templates/admin/create-form.php:161
+msgid "Form Skin"
+msgstr ""
+
+#: templates/admin/create-form.php:174
+msgid "You're done!"
+msgstr ""
+
+#: templates/admin/create-form.php:178
+msgid "You must create a category before creating a form."
+msgstr ""
+
+#: templates/admin/create-form.php:182 templates/admin/view-forms.php:19
+#: controllers/admin/USP_CreateFormController.php:13
+msgid "Create Form"
+msgstr ""
+
+#: templates/admin/create-form.php:197
+msgid "Responsive Design: Real Time Visualizer"
+msgstr ""
+
+#: templates/admin/create-form.php:207
+msgid "Don't miss updates from us!"
+msgstr ""
+
+#: templates/admin/create-form.php:208
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
+msgstr ""
+
+#: templates/admin/view-forms.php:17
+#: controllers/admin/USP_ViewFormsController.php:14
+msgid "View Forms"
+msgstr ""
+
+#: templates/admin/view-forms.php:22
+msgid "Here you can view the subscription forms that you have made."
+msgstr ""
+
+#: templates/admin/view-forms.php:28
+msgid "Welcome!"
+msgstr ""
+
+#: templates/admin/view-forms.php:30
+msgid ""
+"Thank you for installing Ultimate Subscribe Pro! If you encounter any "
+"questions or problems, please feel free to request for help!"
+msgstr ""
+
+#: templates/admin/view-forms.php:40 templates/admin/view-forms.php:47
+msgid "Form Name"
+msgstr ""
+
+#: templates/admin/view-forms.php:41 templates/admin/view-forms.php:48
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin/view-forms.php:42 templates/admin/view-forms.php:49
+#: templates/admin/categories.php:22 templates/admin/categories.php:28
+msgid "Actions"
+msgstr ""
+
+#: templates/admin/view-forms.php:61
+msgid "Edit"
+msgstr ""
+
+#: templates/admin/view-forms.php:62 templates/admin/categories.php:47
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:10
+msgid "Subscriber List"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:12
+msgid ""
+"Only the last 100 subscribed users are shown. Export this category as a CSV "
+"to get the entire list."
+msgstr ""
+
+#: templates/admin/view-subscribers.php:18
+#: templates/admin/view-subscribers.php:25
+msgid "Email"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:19
+#: templates/admin/view-subscribers.php:26
+msgid "Time"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:43
+msgid "Subscriber Removal Tool"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:46
+msgid "Subscriber Email:"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:47
+msgid "account@domain.com"
+msgstr ""
+
+#: templates/admin/view-subscribers.php:49
+msgid "Remove subscriber"
+msgstr ""
+
+#: templates/admin/help.php:2
+msgid "Help Section"
+msgstr ""
+
+#: templates/admin/help.php:4
+msgid "About us"
+msgstr ""
+
+#: templates/admin/help.php:6
+msgid ""
+"First of all, thank you for purchasing Ultimate Subscribe Pro!\n"
+"\t\tWe are a technology company of only two employees, trying to get "
+"ourselves out there in the market.\n"
+"\t\tWe will value all types of feedback and suggestions. You can email us at "
+"auburndesignstech@gmail.com if you\n"
+"        need further support! Please read below though to see if anything "
+"addresses your concern."
+msgstr ""
+
+#: templates/admin/help.php:13
+msgid "What is this plugin?"
+msgstr ""
+
+#: templates/admin/help.php:15
+msgid ""
+"This plugin allows you to create responsive subscription forms that allows "
+"your visitors to subscribe\n"
+"\t\tto a category that you made. A category that you make might be called "
+"something like \"Daily Newsletter\",\n"
+"\t\t\"Weekly Deals\", or \"Deal of the day\". Your forms that you create can "
+"have multiple subscription buttons,\n"
+"\t\tallowing for users to subscribe to choose a category that they want to "
+"subscribe to."
+msgstr ""
+
+#: templates/admin/help.php:22
+msgid ""
+"By grouping subscribers into categories, visitors can be more flexible in "
+"what type of content they want\n"
+"\t\tto be emailed. Not all visitors are the same."
+msgstr ""
+
+#: templates/admin/help.php:26
+msgid "What makes this plugin worth it's price tag?"
+msgstr ""
+
+#: templates/admin/help.php:28
+msgid "There's a lot of features involved with this plugin! For example:"
+msgstr ""
+
+#: templates/admin/help.php:30
+msgid ""
+"The ability to make new subscribers click an activation link sent to their "
+"email"
+msgstr ""
+
+#: templates/admin/help.php:31
+msgid ""
+"Built in spam-protection, protecting you from a user subscribing to a "
+"category many many times"
+msgstr ""
+
+#: templates/admin/help.php:32
+msgid ""
+"The ability to send emails to your subscribers, being able to send a "
+"subscription deactivation link, and their name inside the email!"
+msgstr ""
+
+#: templates/admin/help.php:33
+msgid ""
+"A variety of customizable subscription templates all with responsive-design"
+msgstr ""
+
+#: templates/admin/help.php:34
+msgid "AJAX powered"
+msgstr ""
+
+#: templates/admin/help.php:38
+msgid ""
+"\"Your settings were saved, but a test email to your site's admin email "
+"failed.\""
+msgstr ""
+
+#: templates/admin/help.php:40
+msgid ""
+"Every time you save your email settings, a test email is sent to the site's "
+"admin email. If you are\n"
+"                receiving this message, the server more than likely can't "
+"use the email settings you have set. To fix this,\n"
+"                please try reading \"My emails aren't being sent, or they're "
+"getting sent to spam\" directly below. \n"
+"                Also, if your site's admin email is fake or non-existent, "
+"that may trigger this warning."
+msgstr ""
+
+#: templates/admin/help.php:48
+msgid "My emails aren't being sent, or they're getting sent to spam"
+msgstr ""
+
+#: templates/admin/help.php:50
+msgid ""
+"Emails may not be sent for a variety of reasons. The most common reasons are:"
+msgstr ""
+
+#: templates/admin/help.php:53
+msgid ""
+"You aren't using SMTP. Using SMTP isnt mandatory, but it significantly "
+"decreases your chances\n"
+"            of your email getting sent to spam, or simply being non-existent."
+msgstr ""
+
+#: templates/admin/help.php:57
+msgid ""
+"SMTP is configured incorrectly. Ensure that the email address and password "
+"are correct."
+msgstr ""
+
+#: templates/admin/help.php:60
+msgid ""
+"You reached the daily mail limit for your SMTP provider. Providers like "
+"ymail/gmail have a limit of 500/day."
+msgstr ""
+
+#: templates/admin/help.php:64
+msgid ""
+"You're using Gmail and less secure apps are disabled. Google likes to deem "
+"external apps that have access\n"
+"            to your email's password as \"less secure.\" Nonetheless, SMTP "
+"is a widely used protocol that is rather safe. "
+msgstr ""
+
+#: templates/admin/help.php:69
+#, php-format
+msgid ""
+"Log out of all your Google accounts, then click <a href=\"%s\">here</a> to "
+"enable them."
+msgstr ""
+
+#: templates/admin/help.php:71
+msgid ""
+"Also, if UltimateSubscribePro hasn't been in use for an extended duration of "
+"time, you may have to reactivate this setting."
+msgstr ""
+
+#: templates/admin/help.php:76
+msgid ""
+"You're using Gmail and Gmail blocked your server from logging in. Using your "
+"own personal web browser,\n"
+"            log out of ALL google accounts, and visit "
+msgstr ""
+
+#: templates/admin/help.php:81
+msgid ""
+"The next web server that logs in to your account will be allowed to connect "
+"for all future emails."
+msgstr ""
+
+#: templates/admin/help.php:86
+msgid "My emails are being sent really slow"
+msgstr ""
+
+#: templates/admin/help.php:88
+msgid ""
+"Usually this problem occurs when you are sending emails to at least 200+ "
+"people and you're using an external\n"
+"        SMTP server.\n"
+"        If you are looking for faster emails, you can either:"
+msgstr ""
+
+#: templates/admin/help.php:92
+msgid "Use your own locally hosted SMTP server"
+msgstr ""
+
+#: templates/admin/help.php:93
+msgid ""
+"Export your subscriber list as a CSV and use another solution to send emails."
+msgstr ""
+
+#: templates/admin/help.php:97
+msgid "My emails aren't including line breaks"
+msgstr ""
+
+#: templates/admin/help.php:99
+msgid ""
+"This is because of the way HTML is structured. On the top left corner of the "
+"email builder,\n"
+"        click on \"Preformatted.\" This will save your line breaks."
+msgstr ""
+
+#: templates/admin/help.php:103
+msgid "My emails aren't showing images properly."
+msgstr ""
+
+#: templates/admin/help.php:105
+msgid ""
+"All images attached to the email are hosted by your web server (thus, a "
+"third-party company \n"
+"        won't store your own images on their server, which helps protect "
+"privacy). Ensuring your website is\n"
+"        accessible from the outside world will fix this."
+msgstr ""
+
+#: templates/admin/help.php:111
+msgid "Help! My popup isn't showing."
+msgstr ""
+
+#: templates/admin/help.php:113
+msgid ""
+"There's a good chance your popup isn't showing because you subscribed to "
+"that popup.\n"
+"        For the sake of user experience, once a user subscribes through a "
+"popup form, they won't see that form for one day.\n"
+"        Clear cookies and you'll see the popup form again."
+msgstr ""
+
+#: templates/admin/help.php:118
+msgid "\"We're sorry, but subscriptions are temporarily down. Sorry!\""
+msgstr ""
+
+#: templates/admin/help.php:120
+msgid "There's commonly two reasons why this would show up."
+msgstr ""
+
+#: templates/admin/help.php:122
+msgid ""
+"The non-admin user was flagged as spam for attempting to register more than "
+"4 times. The spam database is cleared daily."
+msgstr ""
+
+#: templates/admin/help.php:123
+msgid ""
+"Your database user can not create new MySQL tables. Contact your hosting "
+"provider about this if you think this is the case"
+msgstr ""
+
+#: templates/admin/help.php:127
+msgid ""
+"My form template looks different on the admin page than my actual website"
+msgstr ""
+
+#: templates/admin/help.php:129
+msgid ""
+"This is because your theme is overriding the style for the forms. This in "
+"general isn't a bad thing because\n"
+"        theme designers did this on purpose, so that everything on the "
+"website looks consistent. Your form should\n"
+"        still look really similar. In some cases, we will override a theme's "
+"style if a form is not showing properly\n"
+"        at all."
+msgstr ""
+
+#: templates/admin/help.php:135
+msgid ""
+"\"This subscription category is currently down. Please contact a site "
+"administrator.\""
+msgstr ""
+
+#: templates/admin/help.php:137
+msgid ""
+"You will receive this error if the subscription category the user subscribed "
+"to was deleted."
+msgstr ""
+
+#: templates/admin/help.php:140
+msgid "None of these answers address my issue"
+msgstr ""
+
+#: templates/admin/help.php:141
+msgid ""
+"Try deactivating and reactivating the plugin. If this doesn't work, contact "
+"us."
+msgstr ""
+
+#: templates/admin/send-email.php:14 templates/admin/send-email.php:74
+#: templates/admin/email-settings.php:14
+#: controllers/admin/USP_SendEmailController.php:13
+msgid "Send Emails"
+msgstr ""
+
+#: templates/admin/send-email.php:15 templates/admin/email-settings.php:15
+#: templates/admin/email-settings.php:20
+#: controllers/admin/USP_EmailSettingsController.php:9
+msgid "Email Settings"
+msgstr ""
+
+#: templates/admin/send-email.php:20
+msgid "Email Sender"
+msgstr ""
+
+#: templates/admin/send-email.php:22
+msgid ""
+"Remember, emails may end up in spam or no where at all depending on your "
+"server environment & SMTP settings."
+msgstr ""
+
+#: templates/admin/send-email.php:28
+msgid "Category Recipient:"
+msgstr ""
+
+#: templates/admin/send-email.php:45
+msgid "Email Subject:"
+msgstr ""
+
+#: templates/admin/send-email.php:57 templates/admin/email-settings.php:149
+msgid "Available Placeholders (automagically changed):"
+msgstr ""
+
+#: templates/admin/send-email.php:61
+msgid "The name of the registered subscriber."
+msgstr ""
+
+#: templates/admin/send-email.php:65
+msgid "The link users can click to unsubscribe from emails."
+msgstr ""
+
+#: templates/admin/email-settings.php:22
+msgid "SMTP Settings"
+msgstr ""
+
+#: templates/admin/email-settings.php:24
+msgid ""
+"Here you can configure SMTP settings. SMTP allows the web server to send an "
+"email through a specified\n"
+"            email provider instead of the server itself. This is helpful "
+"because this may decrease the chances of\n"
+"            your email getting sent to your subscriber's spambox."
+msgstr ""
+
+#: templates/admin/email-settings.php:29
+msgid ""
+"If you are sending an email under an email address that ends with your "
+"website's domain, you might not\n"
+"            need to use SMTP to prevent your email from going to spam. To "
+"find out, subscribe to one of your own\n"
+"            categories, and send an email to yourself. It's recommended that "
+"you subscribe using a gmail account,\n"
+"            since Google has fairly reasonable spam measures."
+msgstr ""
+
+#: templates/admin/email-settings.php:36
+msgid ""
+"Also, it's highly recommended that you use your own local mail server for "
+"SMTP! Using a service such as\n"
+"            Google increases the amount of time to mail. This works, but if "
+"you are sending to over 200+ subscribers,\n"
+"            the mail system may be slow. This is not a plugin defect, but "
+"rather just the way SMTP works. If you use\n"
+"            your own local mail server, email times will be a lot quicker."
+msgstr ""
+
+#: templates/admin/email-settings.php:47
+msgid "SMTP Profile:"
+msgstr ""
+
+#: templates/admin/email-settings.php:64
+msgid "Sender's Email"
+msgstr ""
+
+#: templates/admin/email-settings.php:74
+msgid "Email Password:"
+msgstr ""
+
+#: templates/admin/email-settings.php:84
+msgid "SMTP Server:"
+msgstr ""
+
+#: templates/admin/email-settings.php:93
+msgid "SMTP Port:"
+msgstr ""
+
+#: templates/admin/email-settings.php:103
+msgid "Encryption:"
+msgstr ""
+
+#: templates/admin/email-settings.php:115
+msgid "Note:"
+msgstr ""
+
+#: templates/admin/email-settings.php:116
+msgid ""
+"Some mail services, such as gmail and ymail limit outgoing messages to "
+"500/day."
+msgstr ""
+
+#: templates/admin/email-settings.php:118
+msgid ""
+"Google may also require you to enable \"less secure apps\" in order for this "
+"plugin to connect to the SMTP.\n"
+"                    You can enable weaker apps here:"
+msgstr ""
+
+#: templates/admin/email-settings.php:128
+msgid "Other Settings"
+msgstr ""
+
+#: templates/admin/email-settings.php:131
+msgid "Send new subscribers a required subscription activation email"
+msgstr ""
+
+#: templates/admin/email-settings.php:135
+msgid "Confirmation Subject"
+msgstr ""
+
+#: templates/admin/email-settings.php:141
+msgid "Confirmation Body:"
+msgstr ""
+
+#: templates/admin/email-settings.php:153
+msgid "Name of the new subscriber."
+msgstr ""
+
+#: templates/admin/email-settings.php:157
+msgid "Link for the subscriber to activate his or her subscription."
+msgstr ""
+
+#: templates/admin/email-settings.php:161
+msgid "Submit Settings"
+msgstr ""
+
+#: templates/admin/create-category.php:5 templates/admin/categories.php:21
+#: templates/admin/categories.php:27
+msgid "Category Name"
+msgstr ""
+
+#: templates/admin/create-category.php:6
+msgid "ex: Daily Newsletter"
+msgstr ""
+
+#: templates/admin/create-category.php:8
+msgid "Submit new category"
+msgstr ""
+
+#: templates/admin/categories.php:9
+#: controllers/admin/USP_CategoryController.php:12
+msgid "Categories"
+msgstr ""
+
+#: templates/admin/categories.php:11
+msgid "Create Category"
+msgstr ""
+
+#: templates/admin/categories.php:14
+msgid ""
+"Visitors can subscribe to any categories defined here through a subscription "
+"button you may create via the Form Creator."
+msgstr ""
+
+#: templates/admin/categories.php:43
+msgid "Export to CSV"
+msgstr ""
+
+#: templates/admin/categories.php:45
+msgid ""
+"Are you sure you want to delete this category? You will not be able to "
+"recover the subscriber list for this category. Form buttons that use this "
+"category will no longer work."
+msgstr ""
+
+#: templates/admin/categories.php:52
+msgid "View Subscribers"
+msgstr ""
+
+#: controllers/admin/USP_SendEmailController.php:31
+msgid "Please make a category first before using this page."
+msgstr ""
+
+#: controllers/admin/USP_SendEmailController.php:45
+msgid ""
+"Your message is being sent. You may close out of this tab or navigate away."
+msgstr ""
+
+#: controllers/admin/USP_SendEmailController.php:55
+msgid "Category ID not found. Please contact developer if you see this message"
+msgstr ""
+
+#: controllers/admin/USP_SendEmailController.php:81
+#, php-format
+msgid "Message was sent to %d subscribers!"
+msgstr ""
+
+#: controllers/admin/USP_SendEmailController.php:84
+msgid "Some/all emails failed to send. You may want to check SMTP settings."
+msgstr ""
+
+#: controllers/admin/USP_HelpController.php:6
+msgid "Help"
+msgstr ""
+
+#: controllers/admin/USP_ViewFormsController.php:26
+msgid "Form was added/updated!"
+msgstr ""
+
+#: controllers/admin/USP_ViewFormsController.php:48
+msgid "Form was deleted!"
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:79
+msgid "Your category was added!"
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:81
+msgid "Dismiss this notice."
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:88
+msgid "Your category has been added!"
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:108
+msgid "Category was deleted."
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:109
+msgid "Category could not be deleted"
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:125
+msgid "Please enter a valid email."
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:133
+msgid "Subscriber was removed!"
+msgstr ""
+
+#: controllers/admin/USP_CategoryController.php:136
+msgid "Subscriber could not be found."
+msgstr ""
+
+#: controllers/admin/USP_CreateFormController.php:47
+msgid "Could not create form"
+msgstr ""
+
+#: controllers/admin/USP_EmailSettingsController.php:35
+msgid "Testing email settings.."
+msgstr ""
+
+#: controllers/admin/USP_EmailSettingsController.php:71
+msgid "Your settings were saved!"
+msgstr ""
+
+#: controllers/admin/USP_EmailSettingsController.php:75
+msgid ""
+"Your settings were saved, but a test email sent to your site's admin email "
+"failed. \n"
+"\t\t\tYou may want to check the Help section."
+msgstr ""
+
+#. Name of the plugin
+msgid "Ultimate Subscribe Pro"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The ultimate email subscription management system, offering effective yet "
+"simple solutions."
+msgstr ""
+
+#. Author of the plugin
+msgid "Auburn Designs"
+msgstr ""

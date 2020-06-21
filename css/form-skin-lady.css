@@ -1,0 +1,231 @@
+@font-face {
+    font-family: "ElMessiri-SemiBold";
+    src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+    font-family: "Montserrat-SemiBold";
+    src: url("../fonts/montserrat/Montserrat-SemiBold.ttf"); }
+
+#usp-skin-lady-wrapper {
+    font-family: "Montserrat-Regular", "Roboto", sans-serif;
+    color: #999;
+    font-size: 12px;
+    margin: 0;
+    max-width: 600px;
+    line-height: 2.5em;
+}
+
+#usp-skin-lady-wrapper img {
+    max-width: 100%;
+}
+
+#usp-skin-lady-wrapper ul {
+    padding-left: 0;
+    margin-bottom: 0; }
+
+#usp-skin-lady-wrapper a {
+    text-decoration: none;
+    color: #ff9a9c;
+    transition: all 0.3s ease; }
+a:hover {
+    text-decoration: none;
+    color: #fe4447; }
+
+#usp-skin-lady-wrapper :focus {
+    outline: none; }
+
+.usp-lady-wrapper {
+    display: flex;
+    align-items: center;
+    background-size: cover; }
+
+.usp-lady-inner {
+    max-width: 850px;
+    margin: auto;
+    background: #fff;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+
+.usp-lady-image-holder {
+    margin: auto 0;
+    width: 40%;
+    padding-right: 15px; }
+
+#usp-skin-lady-wrapper form {
+    padding-right: 15px;
+    padding-left: 0px; }
+
+#usp-skin-lady-wrapper h3 {
+    font-size: 35px;
+    font-family: "ElMessiri-SemiBold", "Roboto", sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ff9a9c; }
+
+.usp-lady-form-holder {
+    padding-left: 24px;
+    position: relative; }
+.usp-lady-form-holder:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #ff9a9c;
+    position: absolute;
+    left: 1px;
+    top: 50%;
+    transform: translateY(-50%); }
+.usp-lady-form-holder.usp-lady-active:before {
+    border: 2px solid transparent;
+    background: #ff9a9c; }
+
+.usp-lady-form-control {
+    display: block;
+    width: 100%;
+    border-radius: 23.5px;
+    height: 47px;
+    padding: 0 24px;
+    color: #808080;
+    font-size: 13px;
+    border: none;
+    background: #f7f7f7;
+    margin-bottom: 25px; }
+.usp-lady-form-control::-webkit-input-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular", "Roboto", sans-serif; }
+.usp-lady-form-control::-moz-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular", "Roboto", sans-serif; }
+.usp-lady-form-control:-ms-input-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular", "Roboto", sans-serif; }
+.usp-lady-form-control:-moz-placeholder {
+    font-size: 13px;
+    color: #808080;
+    text-transform: uppercase;
+    font-family: "Montserrat-Regular", "Roboto", sans-serif; }
+
+@keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px); }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px); }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px); }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px); }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px); }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0); } }
+
+#usp-skin-lady-wrapper button {
+    letter-spacing: 2px;
+    border: none;
+    width: 100%;
+    min-height: 47px;
+    margin-bottom: 10px;
+    border-radius: 23.5px;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    background: #ff9a9c;
+    font-size: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Montserrat-SemiBold", "Roboto", sans-serif;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
+#usp-skin-lady-wrapper button:hover {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; }
+
+.usp-lady-checkbox {
+    position: relative;
+    padding-left: 19px;
+    margin-bottom: 37px;
+    margin-left: 26px; }
+.usp-lady-checkbox label {
+    cursor: pointer;
+    color: #999; }
+.usp-lady-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer; }
+.usp-lady-checkbox input:checked ~ .checkmark:after {
+    display: block; }
+
+.usp-lady-checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7; }
+.usp-lady-checkmark:after {
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #ff9a9c;
+    position: absolute;
+    display: none; }
+
+.usp-lady-form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 23px; }
+
+@media (max-width: 500px) {
+    .usp-lady-inner {
+        /* display: block; */
+    }
+
+    .usp-lady-image-holder {
+        width: 1px;
+        height: 1px;
+    }
+
+    #usp-skin-lady-wrapper form {
+        width: 100%;
+        padding: 0px 15px 5px;
+    }
+
+    .usp-lady-wrapper {
+        background: none; } }
